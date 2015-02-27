@@ -2,19 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc19309-659e-4342-901b-fa0ca871a023" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Doughnut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.PolarArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Radar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/ChartJs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/barChart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaScript/ChartJs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/00-Getting-Started.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/01-Line-Chart.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/02-Bar-Chart.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/03-Radar-Chart.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/04-Polar-Area-Chart.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/05-Pie-Doughnut-Chart.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/06-Advanced.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/07-Notes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/bar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/doughnut.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/line-customTooltips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/pie-customTooltips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/pie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/polar-area.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/radar.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestChartJs.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/barChart.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Bar.js" afterPath="$PROJECT_DIR$/src/Chart.Bar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Core.js" afterPath="$PROJECT_DIR$/src/Chart.Core.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Doughnut.js" afterPath="$PROJECT_DIR$/src/Chart.Doughnut.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Line.js" afterPath="$PROJECT_DIR$/src/Chart.Line.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.PolarArea.js" afterPath="$PROJECT_DIR$/src/Chart.PolarArea.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.Radar.js" afterPath="$PROJECT_DIR$/src/Chart.Radar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.js" afterPath="$PROJECT_DIR$/Chart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/Chart.min.js" afterPath="$PROJECT_DIR$/Chart.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/ChartJs.iml" afterPath="$PROJECT_DIR$/ChartJs.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaScript/ChartJs/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestChartJs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,18 +62,7 @@
     <favorites_list name="TestChartJs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="barChart.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/barChart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7122905" vertical-offset="0" max-vertical-offset="855">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,11 +138,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChartJs" />
+              <option name="myItemId" value="samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,7 +154,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -157,6 +165,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/javaScript/ChartJs" />
     </key>
   </component>
@@ -433,22 +442,22 @@
       <created>1425069009699</created>
       <option name="number" value="Default" />
       <updated>1425069009699</updated>
-      <workItem from="1425069011086" duration="1512000" />
+      <workItem from="1425069011086" duration="2923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1512000" />
+    <option name="totallyTimeSpent" value="2923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21766965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -463,7 +472,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15665236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15665236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,60 +502,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaScript/ChartJs/ChartJs.iml">
+    <entry file="file://$PROJECT_DIR$/docs/07-Notes.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.407767" vertical-offset="0" max-vertical-offset="705">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaScript/ChartJs/Chart.Bar.js">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4620">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1425068633000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaScript/ChartJs/Chart.Core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.555555" vertical-offset="0" max-vertical-offset="30015">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaScript/ChartJs/Chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-75.0" vertical-offset="2835" max-vertical-offset="52065">
-          <caret line="332" column="13" selection-start-line="332" selection-start-column="13" selection-end-line="332" selection-end-column="13" />
-          <folding>
-            <marker date="1425068633000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425068633000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425068633000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425068633000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425068633000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaScript/ChartJs/Chart.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04054054" vertical-offset="0" max-vertical-offset="740">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#4#192#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barChart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7122905" vertical-offset="0" max-vertical-offset="855">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
           <folding />
         </state>
       </provider>
