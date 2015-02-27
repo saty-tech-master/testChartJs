@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Polar Area Chart</title>
-		<script src="../Chart.js"></script>
+		<title>Pie Chart</title>
+		<script src="javaScript/ChartJs/Chart.js"></script>
 	</head>
 	<body>
-		<div id="canvas-holder" style="width:30%">
+		<div id="canvas-holder">
 			<canvas id="chart-area" width="300" height="300"/>
 		</div>
 
 
 	<script>
 
-		var polarData = [
+		var pieData = [
 				{
 					value: 300,
 					color:"#F7464A",
@@ -48,9 +48,7 @@
 
 			window.onload = function(){
 				var ctx = document.getElementById("chart-area").getContext("2d");
-				window.myPolarArea = new Chart(ctx).PolarArea(polarData, {
-					responsive:true
-				});
+				window.myPie = new Chart(ctx).Pie(pieData);
 			};
 
 

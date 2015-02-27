@@ -1,27 +1,18 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Doughnut Chart</title>
-		<script src="../Chart.js"></script>
-		<style>
-			body{
-				padding: 0;
-				margin: 0;
-			}
-			#canvas-holder{
-				width:30%;
-			}
-		</style>
+		<title>Polar Area Chart</title>
+		<script src="javaScript/ChartJs/Chart.js"></script>
 	</head>
 	<body>
-		<div id="canvas-holder">
-			<canvas id="chart-area" width="500" height="500"/>
+		<div id="canvas-holder" style="width:30%">
+			<canvas id="chart-area" width="300" height="300"/>
 		</div>
 
 
 	<script>
 
-		var doughnutData = [
+		var polarData = [
 				{
 					value: 300,
 					color:"#F7464A",
@@ -57,7 +48,9 @@
 
 			window.onload = function(){
 				var ctx = document.getElementById("chart-area").getContext("2d");
-				window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
+				window.myPolarArea = new Chart(ctx).PolarArea(polarData, {
+					responsive:true
+				});
 			};
 
 
